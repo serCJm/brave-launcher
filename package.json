@@ -12,6 +12,7 @@
 	"license": "MIT",
 	"type": "module",
 	"dependencies": {
+		"puppeteer-core": "^22.3.0",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.3.3"
 	},
