@@ -1,0 +1,26 @@
+{
+	"name": "brave-launcher",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/main.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"launch": "node --env-file .env --loader ts-node/esm src/main.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"type": "module",
+	"dependencies": {
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.24",
+		"@typescript-eslint/eslint-plugin": "^6.21.0",
+		"@typescript-eslint/parser": "^6.21.0",
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"prettier": "^3.2.5"
+	}
+}
